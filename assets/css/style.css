@@ -467,7 +467,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(../images/me-talking.JPEG) no-repeat center top fixed;
+    background: url(../images/me-talking.JPG) no-repeat center top fixed;
     background-size:cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -914,7 +914,25 @@ Main components
         right: 60px;
     }
 }
+nav{
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    /*we move this element off the canvas */
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    z-index: 3;
 
+}
 nav ul{
     font-family: montserrat;
     color: white;
@@ -923,6 +941,22 @@ nav ul{
     padding: 0 10px;
     float: right;
     margin-right: 20px
+        /* Force Hardware Acceleration in WebKit */
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        /*we move this element off the canvas */
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        transform: translateY(-100%);
+        -webkit-transition-property: -webkit-transform;
+        -moz-transition-property: -moz-transform;
+        transition-property: transform;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        z-index: 3;
 
 }
 nav ul li a{
