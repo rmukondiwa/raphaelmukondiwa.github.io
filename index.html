@@ -6,29 +6,28 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Home - Raphael Mukondiwa</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
-        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
 
         <!--For Plugins external css-->
-        <link rel="stylesheet" href="plugins.css" />
-        <link rel="stylesheet" href="roboto-railway-webfont.css" />
-        <link rel="stylesheet" href="linearicons-web-font.css" />
-        <link rel="stylesheet" href="magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-railway-webfont.css" />
+        <link rel="stylesheet" href="assets/css/linearicons-web-font.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
         <!--Theme custom css -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
         <!--Theme Responsive css-->
-        <link rel="stylesheet" href="responsive.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
 
-        <script src="modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <title>Raphael Mukondiwa - Homepage</title>
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -37,7 +36,7 @@
 
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
 
-
+<!--
         <nav id="main-nav">
             <ul>
                 <li><a href="#home"><span>Home</span></a></li>
@@ -49,7 +48,7 @@
             </ul>
             <a href="#0" class="cd-close-menu">Close<span></span></a>
         </nav>
-
+    -->
         <!--Home page style-->
         <header id="home" class="home home-main-content">
             <div class="overlay sections">
@@ -61,7 +60,13 @@
                                     <label class= "logo">RTM</label>
                                     <!--<a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>-->
                                 </div>
-                                <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#about"><span>About Me</span></a></li>
+                                            <li><a href="#experience"><span>Experience</span></a></li>
+                                            <li><a href="#portfolio"><span>Gallery</span></a></li>
+                                        </ul>
+                                    </nav>
                             </header>
                         </div>
 
@@ -88,7 +93,7 @@
 
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="about-photo">
-                                <img src="headshotst copy.jpeg" alt="About Photo" />
+                                <img src="assets/images/headshotst copy.jpeg" alt="About Photo" />
                             </div>
                         </div>
 
@@ -98,25 +103,26 @@
                                 <p>I'm a first-year student at Duke University, focusing on the intersection of Computer Science and Finance. My academic journey has provided me with a strong foundation, and I am enthusiastic about applying my skills to real-world challenges. My interest lies in exploring how technology and finance can collaboratively address societal issues and contribute to positive change!<br><br>Feel free to connect with me on LinkedIn for more insights and updates on my journey. Also, check out my YouTube channel for discussions on the latest in tech and finance!</p>
                                 <!--<p>Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>-->
                                 <a href="https://www.youtube.com/channel/UCkfAnPXS1toyczZJsxpHZJw" class="btn btn-default">Connect with me</a>
-                                                                <a href="https://www.linkedin.com/in/raphael-mukondiwa-535719284" class="btn btn-default">Youtube</a>
+                                <a href="https://www.linkedin.com/in/raphael-mukondiwa-535719284" class="btn btn-default">Youtube</a>
                             </div>
                         </div>
 
                     </div>
                 </div>
-            </div> <!-- /container -->
+            </div> <!-- /container -->       
         </section>
 
         <!-- Sections -->
+    <!-- 
         <section id="features" class="sections lightbg">
-<!-- 
+
             <div class="heading-content text-center">
                 <h3>My Working Process</h1>
-                    <p></p>
+                    <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
             </div>
 
             <div class="container text-center">
-                Example row of columns 
+                 Example row of columns 
                 <div class="row">
                     <div class="features-wrapper">
 
@@ -166,11 +172,9 @@
 
                     </div>
                 </div>
-            </div> /container       
-
+            </div>  /container        
         </section>
     -->
-
         <!-- Sections -->
         <section id="experience" class="experience">
             <div class="overlay sections">
@@ -236,28 +240,34 @@
                 <!-- Example row of columns -->
                 <div class="row">
                     <div class="portfolio-wrapper">
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
                             <div class="portfolio-item">
-                                <a href="me-standing.jpeg" class="portfolio-img"><img src="me-standing.jpeg" alt="" /></a>
+                                <a href="assets/images/me-standing.jpeg" class="portfolio-img"><img src="assets/images/me-standing.jpeg" alt="" /></a>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
                             <div class="portfolio-item">
-                                <a href="me-sitting.jpeg" class="portfolio-img"><img src="me-sitting.jpeg" alt="" /></a>
+                                <a href="assets/images/me-sitting.jpeg" class="portfolio-img"><img src="assets/images/me-sitting.jpeg" alt="" /></a>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
                             <div class="portfolio-item">
-                                <a href="me-writing.gif" class="portfolio-img"><img src="me-writing.gif" alt="" /></a>
+                                <a href="assets/images/me-writing.gif" class="portfolio-img"><img src="assets/images/me-writing.gif" alt="" /></a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
                             <div class="portfolio-item">
-                                <a href="Me-posing.HEIC" class="portfolio-img"><img src="Me-posing.HEIC" alt="" /></a>
+                                <a href="assets/images/Me-posing.HEIC" class="portfolio-img"><img src="assets/images/Me-posing.HEIC" alt="" /></a>
                             </div>
                         </div>
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/me-speech.PNG" class="portfolio-img"><img src="assets/images/me-speech.PNG" alt="" /></a>
+                            </div>
+                        </div>
+                        
 <!-- 
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="portfolio-item">
@@ -293,7 +303,10 @@
                 </div>
 
 
+
+
             </div> <!-- /container -->       
+        </section>
 <!--
         </section>
          Sections 
@@ -403,7 +416,7 @@
 
 
         Footer-->
-
+        
         <footer id="footer" class="footer">
             <div class="container text-center">
                 <div class="row">
@@ -427,13 +440,15 @@
         </footer>
 
 
-        <script src="jquery-1.11.2.min.js"></script>
-        <script src="bootstrap.min.js"></script>
 
-        <script src="plugins.js"></script>
-        <script src="jquery.magnific-popup.js"></script>
-        <script src="modernizr.js"></script>
 
-        <script src="main.js"></script>
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
